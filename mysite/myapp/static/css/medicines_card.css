@@ -6,45 +6,65 @@
 /*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
 /*    width: 300px;*/
 /*}*/
-
-.product-card {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    margin: 10px; /* Adjust spacing between cards */
-    flex: 1; /* To evenly distribute space */
-}
-
-#product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Adjust as needed */
+.main-container{
+    min-height: 100vh;
 }
 
 
 
 
-.product-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
 
-.product-title {
-    font-size: 18px;
-    margin-top: 10px;
-}
 
-.product-cost,
-.product-count,
-.product-description,
-.product-vendor {
-    font-size: 14px;
-    margin-top: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.product-card {*/
+/*    background-color: #ffffff;*/
+/*    border: 1px solid #e0e0e0;*/
+/*    border-radius: 8px;*/
+/*    padding: 20px;*/
+/*    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+/*    width: 300px;*/
+/*    margin: 10px; !* Adjust spacing between cards *!*/
+/*    flex: 1; !* To evenly distribute space *!*/
+/*}*/
+
+/*#product-container {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around; !* Adjust as needed *!*/
+/*}*/
+
+
+
+
+/*.product-image {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+/*.product-title {*/
+/*    font-size: 18px;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.product-cost,*/
+/*.product-count,*/
+/*.product-description,*/
+/*.product-vendor {*/
+/*    font-size: 14px;*/
+/*    margin-top: 5px;*/
+/*}*/
 
 
 

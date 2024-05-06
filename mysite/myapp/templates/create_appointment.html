@@ -77,9 +77,9 @@
 
 <div class="main-container">
     <div class="container">
-        <h1 style="color: #1474cc; text-align: center">Special Edition Booking form</h1>
+        <br><h1 style="color: #1474cc; text-align: center">Special Edition Booking form</h1><br>
             {% if doctor.next_available_appointment_date %}
-                <p style="color: rgba(213,39,39,0.99); text-align:center;"></p><br>
+                <p style="color: rgba(213,39,39,0.99); text-align:center;"></p><br><br>
             {% endif %}
         <h2>Name of the Book: {{ doctor.name }}</h2>
         <form method="post" action="">
@@ -93,13 +93,13 @@
 
             
             <div class="form-group">
-                <label for="description"> Description </label>
-                <textarea id="description" name="description" rows="7" cols="50" maxlength="1000" required></textarea>
+                <br><label for="description"> Description </label>
+                <textarea id="description" name="description" rows="7" cols="50" maxlength="1000"> </textarea>
             </div>
         
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Submit</button><br>
         </form>
     </div>
 </div>
-
+<br>
 {% endblock %}
